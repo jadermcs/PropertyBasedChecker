@@ -1,6 +1,6 @@
 object Generator {
   trait Prop {
-    def check: Unit
+    def check: Boolean
 
     def &&(p: Prop): Prop
 
