@@ -1,5 +1,7 @@
 object Generator {
   trait Prop {
+    def check: Unit
+
     def &&(p: Prop): Prop
 
     def ||(p: Prop): Prop
